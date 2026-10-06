@@ -83,4 +83,3 @@ if (
 <?php
 $dayOfYear = 256;
 $daysInMonths = [ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]; 
-$monthNames

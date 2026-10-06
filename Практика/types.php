@@ -21,7 +21,7 @@ echo "isNumber = $isNumber, isNull = $isNull";
 <h2>string - строки</h2>
 <?php
 $str = 'Hello';
-$str2 = "Hello!!", 'Mars'!!";
+$str2 = "Hello!!",'Mars'!!";
 echo $str2;
 ?>
 <h2>null - ничего</h2>
