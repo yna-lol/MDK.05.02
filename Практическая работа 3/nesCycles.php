@@ -38,3 +38,4 @@ echo "</table>";
 <?php
 echo "<table border='1' cellpadding='5' style='border-collapse: collapse;'>";
 echo "<tr><th>Число</th><th>квадрат</th></tr>";
+

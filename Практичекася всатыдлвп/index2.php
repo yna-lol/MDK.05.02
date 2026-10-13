@@ -15,16 +15,15 @@
     echo "ошибка:деление на ноль!"; 
    $part1 = ($a / $c ) * ($b * $d) ; //
    $part2 = ($a / $b - $c) //
-   $result = $part1 - $part2;
-   echo "результат вычисления: " 
-   $result;
+
+
    ?> 
    <h2>Формула 2</h2>
    <?php
    $x = 2;
    $y = 3;
    $part1 = ( $x + $y) / ($y + 1 );
-   $part2=x * $y - 12) / ( $y + 1 );
+   $part2=x * $y - 12 / ( $y + 1 );
    echo "Ответ" . ($first - $second) ;
    ?>
 
