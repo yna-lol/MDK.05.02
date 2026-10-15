@@ -90,5 +90,4 @@ echo $result;
 
 
 
-<h1>Оператор Match</h1>
-<?php 
+
