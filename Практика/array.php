@@ -1,3 +1,35 @@
 <h1>Массивы</h1>
 <?php
-$nums = [];
+$nums = [2, 44, 3, 7, 12];
+echo "4й элемент массива -
+$nums[4]"; 
+?>
+<h2>Изменение элементов</h2>
+<?php
+$nums[2] = '!!!';
+echo "3й элемент массива - $nums[2]";
+?>
+<h2>Вывод на экран<</h2>
+<?php
+for($i = 0; $i < count($nums); $i ++ 
+){
+    echo $nums[$i], '';
+}
+?>
+<h2>Цикл foreach</h2>
+<?php
+foreach ($nums as $key => $num){
+ echo ($key - $value) <br> ";
+}
+?>
+<h2>Поиск максиммума</h2>
+<?php
+$nums = [2, 44, 3, 7, 12];
+$max = $nums [0];
+foreach ($nums as $num) {
+if ($num > $max){
+$max = $num;
+}
+}
+echo "Максимум = $max"
+?> 
