@@ -53,8 +53,6 @@ foreach ($originalNums as $newNums) {
     }
 }
 echo "Исходный  массив:";
- foreach ($originalNums as $newNums)
-
 ?>
 <h5>Задание 5</h5>
 <?php
