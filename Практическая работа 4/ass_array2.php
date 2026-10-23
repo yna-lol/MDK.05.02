@@ -82,10 +82,34 @@ foreach ($arr as $key => $vale) {
 ?>
 <h6>Задание 6</h6>
 <?php
-$arr =  [
-    "monday" => "понедельник",
-    "friday" => "пятница"
+$arr =[
+    'monday' => 'понедельник',
+    'tuesday' => 'вторник',
+    'wensday' => 'среда',
+    'thursday' =>'четверг',
+    'friday' => 'пятница',
+    'saturday' => 'суббота',
+    'sunday' => 'воскресенье',
 ];
-$newArr = array_flip($arr);
-print_r($newArr);
+$result = [];
+foreach ($arr as $key => $vale) {
+    $result[$vale] = $key;
+}
+print_r($result);
+?>
+<h7>Задание 7</h7>
+<?php
+$arr = ['кот', 'дом', 'лес', 'слон', 'мышь'];
+$result = [];
+foreach ($arr as $word) {
+    $len = strlen($word);
+    $result[$len][] = $word;
+}
+foreach ($result as $key => $words) {
+    echo $key . ' => ';
+    foreach ($word as $word){
+        echo $word . ' ';
+    }
+    echo '<br>';
+}
 ?>
